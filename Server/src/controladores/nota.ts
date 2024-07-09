@@ -11,7 +11,7 @@ export const getNotas =  async(req: Request,res: Response)=>{
         })
     }else{
         res.status(404).json({
-            msg: "No encontrada ninguna nota"
+            msg: "Ocurrio un error añadiendo la  nota"
         })
     }
 }

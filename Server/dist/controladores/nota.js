@@ -24,7 +24,7 @@ const getNotas = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     }
     else {
         res.status(404).json({
-            msg: "No encontrada ninguna nota"
+            msg: "Ocurrio un error añadiendo la  nota"
         });
     }
 });
